@@ -1,0 +1,14 @@
+name: Test
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: cc -std=c11 -O2 -Wall -Wextra -Werror lzbitmap.c lzmesh.c lzraven.c tests/test.c -o tests/run-tests
+      - run: ./tests/run-tests

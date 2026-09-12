@@ -1,0 +1,3 @@
+# Downloaded Apple firmware, extracted binaries, and local tooling.
+/artifacts/
+/.tools/
