@@ -10,3 +10,8 @@ These implementations are based on black box reverse-engineering `libcompression
 
 ## Legal
  This project is not affiliated with, endorsed by, or sponsored by Apple Inc. Apple and macOS are trademarks of Apple Inc. All third-party trademarks and intellectual property remain the property of their respective owners.
+
+## License
+Licensed under the [MIT License](LICENSE).
+
+The MIT License grants only rights that the contributors are authorized to license. It does not grant any rights on behalf of Apple or other third parties.
