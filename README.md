@@ -1,5 +1,5 @@
 # Apple Compression Algorithms (27+)
-![Tests](https://github.com/retrowave3/apple-compression/actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/retrowave3/apple-compressions/actions/workflows/test.yml/badge.svg)
 
 
 These implementations are based on black box reverse-engineering `libcompression.dylib` from iOS 27.0 (24A435). Each algorithm is kept independent as `.h` and `.c` pairs. Do not expect native `libcompression` performance. If you think something is wrong or missing open an issue.
