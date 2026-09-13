@@ -4,9 +4,9 @@
 
 These implementations are based on iOS 27.0 (24A435). Each algorithm is kept independent as `.h` and `.c` pairs. Do not expect native `libcompression` performance. If you think something is wrong or missing open an issue.
 
-- `lzraven.c` / `lzraven.h`: selectors `0xD05` - testing shows config byte is currently ignored by libcompression.
-- `lzmesh.c` / `lzmesh.h`: selectors `0xE00`, `0xE01`, `0xE05`, `0xE09`
-- `lzbitmap.c` / `lzbitmap.h`: selectors `0x600`-`0x602`, `0x700`-`0x702`
+- `lzraven`: selectors `0xD05` - testing shows config byte is currently ignored by libcompression.
+- `lzmesh`: selectors `0xE00`, `0xE01`, `0xE05`, `0xE09`
+- `lzbitmap`: selectors `0x600`-`0x602`, `0x700`-`0x702`
 
 ## Legal
  This project is not affiliated with, endorsed by, or sponsored by Apple Inc. Apple and macOS are trademarks of Apple Inc. All third-party trademarks and intellectual property remain the property of their respective owners.
